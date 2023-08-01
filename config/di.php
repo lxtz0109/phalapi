@@ -64,6 +64,11 @@ $di->error = new ApiError();
 //     $di->response = new \PhalApi\Response\JsonpResponse($_GET['callback']);
 // }
 
+// 支持XML返回格式的返回
+// if (!empty($_GET['callback'])) {
+//    $di->response = new \PhalApi\Response\XmlResponse();
+// }
+
 // 切换到页面渲染
 // $di->response = new \PhalApi\Response\HtmlResponse();
 
