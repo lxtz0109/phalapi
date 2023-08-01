@@ -27,4 +27,5 @@ return array(
     'API Url' => 'API URL',
     'Protocol' => 'Request Protocol',
     'Method' => 'Request Method',
+    'Methods' => 'Request Method',
 );
