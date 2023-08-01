@@ -26,6 +26,10 @@ class ComposerStaticInit6835957bc29912b8a4cd2dd758af2e80
         array (
             'GetOpt\\' => 7,
         ),
+        'F' => 
+        array (
+            'Foo\\' => 4,
+        ),
         'A' => 
         array (
             'App\\' => 4,
@@ -60,6 +64,10 @@ class ComposerStaticInit6835957bc29912b8a4cd2dd758af2e80
         'GetOpt\\' => 
         array (
             0 => __DIR__ . '/..' . '/ulrichsg/getopt-php/src',
+        ),
+        'Foo\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/foo',
         ),
         'App\\' => 
         array (

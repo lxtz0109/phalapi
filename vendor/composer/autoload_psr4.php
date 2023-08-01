@@ -13,5 +13,6 @@ return array(
     'PhalApi\\CLI\\' => array($vendorDir . '/phalapi/cli/src'),
     'PhalApi\\' => array($vendorDir . '/phalapi/kernal/src'),
     'GetOpt\\' => array($vendorDir . '/ulrichsg/getopt-php/src'),
+    'Foo\\' => array($baseDir . '/src/foo'),
     'App\\' => array($baseDir . '/src/app'),
 );
