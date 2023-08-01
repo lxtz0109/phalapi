@@ -13,6 +13,6 @@ class Hello extends Api {
 	 * 示例接口
 	 */
 	public function world() {
-		return array('content' => 'Hello World!');
+		return array('content' => 'Hello Worlds!');
 	}
 }
