@@ -20,7 +20,8 @@
 		"phalapi/kernal" : "2.*.*",
 		"phalapi/qrcode" : "dev-master",
 		"phalapi/cli" : "^3.0",
-		"phalapi/task" : "dev-master"
+		"phalapi/task" : "dev-master",
+		"php-amqplib/php-amqplib": "^2.8"
 	},
 	"autoload" : {
 		"files" : [

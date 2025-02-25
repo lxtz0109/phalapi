@@ -28,14 +28,17 @@ class CURD {
     }
 
     public function getList($state, $page, $perpage) {
-        $rs = array('items' => array(), 'total' => 0);
+        $rs = array('data' => array(), 'total' => 0);
 
         $model = new ModelCURD();
         $items = $model->getListItems($state, $page, $perpage);
         $total = $model->getListTotal($state);
 
-        $rs['items'] = $items;
+        $rs['data'] = $items;
         $rs['total'] = $total;
+        $rs['page'] = $page;
+        $rs['perpage'] = $perpage;
+
 
         return $rs;
     }

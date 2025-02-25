@@ -16,6 +16,7 @@ class ComposerStaticInit6835957bc29912b8a4cd2dd758af2e80
         'P' => 
         array (
             'Portal\\' => 7,
+            'PhpAmqpLib\\' => 11,
             'PhalApi\\Task\\' => 13,
             'PhalApi\\QrCode\\' => 15,
             'PhalApi\\NotORM\\' => 15,
@@ -40,6 +41,10 @@ class ComposerStaticInit6835957bc29912b8a4cd2dd758af2e80
         'Portal\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/portal',
+        ),
+        'PhpAmqpLib\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-amqplib/php-amqplib/PhpAmqpLib',
         ),
         'PhalApi\\Task\\' => 
         array (
