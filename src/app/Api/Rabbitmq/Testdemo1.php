@@ -60,7 +60,7 @@ class Testdemo1 extends Api {
          $channel->set_ack_handler(
              function (AMQPMessage $message) {
 
-                 echo "发送成功: " . $message->body . PHP_EOL;exit;
+                 echo "发送成功: " . $message->body . PHP_EOL;
              }
          );
 
@@ -93,8 +93,8 @@ class Testdemo1 extends Api {
 
         # 回调
         $callback = function ($msg){
-          //  echo $msg->body.PHP_EOL;
-          //  echo "消费====\n";
+            echo $msg->body.PHP_EOL;
+            echo "消费====\n";
             // 手动应答
             $msg->delivery_info['channel']->basic_ack($msg->delivery_info['delivery_tag']);
         };
