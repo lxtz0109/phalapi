@@ -109,6 +109,7 @@ class Testdemo1 extends Api {
 
 
         $channel->close();
+        $connect->close();
 
         return "ok";
     }
