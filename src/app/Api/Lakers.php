@@ -22,6 +22,9 @@ class Lakers extends Api {
         $domainCurd = new DomainCURD();
         $listItems = $domainCurd->getList(1,1,10);
 
+        $arr = array("name"=>"desmond","msg"=>"succ");
+        \PhalApi\DI()->response->setData($arr);
+        //return  $arr;
         return $listItems;
         //设置状态码
         //\PhalApi\DI()->response->setRet(1000);
